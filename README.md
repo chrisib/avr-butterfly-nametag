@@ -14,6 +14,10 @@ to act as a primitive synthesizer.
 You will need `avr-gcc` and `avrdude` installed on your system to build & deploy this project.
 These are available on Ubuntu, and likely other operating systems.
 
+```bash
+sudo apt-get install gcc-avr avr-libc avrdude
+```
+
 ## Building
 
 To build, `cd` into the project folder and run `make`. `make clean` will clean up any built
